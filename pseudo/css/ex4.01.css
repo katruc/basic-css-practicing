@@ -1,0 +1,27 @@
+/* .kat:hover{
+    background: yellow;
+}
+.ex:hover{
+    background: #292c3b;
+    color: aliceblue;
+    
+}
+.ex h1:hover{
+    color: yellow;
+} */
+/* css/ex4.01.css */
+
+
+.ex:hover {
+    background: #292c3b;
+    color: aliceblue;  }
+  
+  .ex:hover h1 span{
+    color: #ffcc00; 
+  }
+  
+  .ex:hover .kat {
+    background-color: #ffcc00; 
+    color: #ffffff; 
+  }
+  

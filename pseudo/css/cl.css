@@ -1,0 +1,15 @@
+/* .btn:hover{
+    background: green;
+    color: rgb(252, 225, 230);
+
+} */
+
+/* .btn:active{
+    background: green;
+    color: rgb(252, 225, 230);
+} */
+
+.btn:focus, .btn:hover{
+    background: green;
+    color: rgb(252, 225, 230);
+}

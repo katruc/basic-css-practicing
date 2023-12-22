@@ -1,0 +1,30 @@
+/* .title::before{
+    content: 'AAAA FU*K '
+}
+.title::after{
+    content: ' AAAAA';
+} */
+
+.title::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 50px;
+    background: red;
+}
+p::first-line{
+    color: darkgreen;
+}
+p::first-letter{
+    font-weight: bold;
+    font-size: 2rem;
+}
+p::selection{
+    color: rgb(247, 143, 195);
+    background: black;
+}
+
+.email::placeholder{
+    color: rgb(255, 84, 112);
+    font-style: italic;
+}

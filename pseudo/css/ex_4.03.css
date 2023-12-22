@@ -1,0 +1,36 @@
+.bsl {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 50vh; */
+}
+.btnn{
+    background-color: rgb(212, 212, 212);
+    color: navy;
+    border: none;
+    padding: 15px 55px;
+}
+.btnn:hover, .btnn:focus{
+    background-color: navy;
+    color: rgb(212, 212, 212);
+}
+.img-container img{
+    transition: transform 0.1s ease-in-out;
+}
+.img-container img:hover{
+    opacity: 0; 
+}
+.img-container img:hover + img{
+    opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.img-container img + img{
+    opacity: 0; 
+  transition: opacity 0.1s ease-in-out; 
+}
+
+th{
+    padding: 10px;
+    width: 250px; 
+}

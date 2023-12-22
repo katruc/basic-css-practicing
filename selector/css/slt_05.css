@@ -1,0 +1,6 @@
+/* p + h2, p + h2 + h2{
+    color: pink;
+} */
+h2 + h2{
+    color: pink;
+}

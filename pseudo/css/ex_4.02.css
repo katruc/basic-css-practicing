@@ -1,0 +1,35 @@
+.between {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 50vh; */
+}
+.between h2{
+    font-family: 'BebasNeue', sans-serif;
+}
+.between h1, .button{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+}
+.between:not(.button){
+    color: rgb(59, 34, 29);
+}
+.button{
+    background-color: rgb(153, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 55px;
+}
+.button:hover{
+    background-color: rgb(201, 169, 169);
+    color: rgb(109, 20, 20);
+}
+.form::placeholder{
+    color: rgb(59, 34, 29);
+    text-align: left;
+    font-weight: bold;
+}
+.form{
+    padding: 10px;
+}

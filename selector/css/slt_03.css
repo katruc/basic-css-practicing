@@ -1,0 +1,6 @@
+.first h2 ~ h3{
+    color: pink;
+}
+.last h2 ~ h3{
+    color: lightblue;
+}

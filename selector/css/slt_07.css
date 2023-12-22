@@ -1,0 +1,11 @@
+/* *{
+    color: darkgreen;
+} */
+/* .content > *{
+    color: darkgreen;
+    border: 1px solid rgb(253, 66, 160);
+} */
+.content{
+    color: darkgreen;
+    border: 1px solid rgb(253, 66, 160);
+}

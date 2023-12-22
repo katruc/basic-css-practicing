@@ -1,0 +1,25 @@
+/* ul li a[target]{
+    color: lightskyblue;
+} */
+/* ul li a[href^="https://www.facebook.com/"]{
+    color: crimson;
+} */
+ul li a[href*="www.facebook.com/"]{
+    color: crimson;
+}
+
+.item-1{
+    color: lightskyblue;
+}
+.item-2{
+    color: lightcoral;
+}
+.item-3{
+    color: orange;
+}
+.item-4{
+    color: lightgreen;
+}
+[class^="item"]{
+    border: 1px solid lightpink;
+}
