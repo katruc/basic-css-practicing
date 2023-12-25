@@ -5,47 +5,44 @@
   justify-content: center;
   /* height: 50vh; */
 }
-[class*="tab"], .atc{
+[class*="tab"]{
     background-color: rgb(212, 212, 212);
     color: navy;
     border: none;
     padding: 15px 55px;
 }
-[class*="tab"]:focus,.atc:focus, [class*="tab"]:hover,.atc:hover {
+.atc{
+  background-color: navy;
+  color: rgb(212, 212, 212);
+  border: none;
+  padding: 10px 30px;
+}
+.atc:focus, .atc:hover{
+  background-color: rgb(212, 212, 212);
+    color: navy;
+}
+[class*="tab"]:focus, [class*="tab"]:hover{
   background-color: navy;
   color: rgb(212, 212, 212);
 }
-
-/* .hover-image {
-    display: none;
-  }
-  
-  .default-image:hover {
-    display: none;
-  }
-  
-  .default-image:hover + .hover-image{
-    display: inline;
-  }
-  .default-image:hover + .hover-image + .atc{
-    display: inline;
-  }
-  .atc{
-    display: none;
-  } */
-.item {
-    background-image: url(https://cdn-images.kiotviet.vn/myphamsacxuan/4dd11a4a8d11421bb6041d54b0299f67.jpg);
-    background-repeat: no-repeat;
-}
 .atc {
-    display: none;
+  display: none;
 }
-.item:hover {
-    background-image: url(https://tienichgiadinhvn.com/wp-content/uploads/2023/03/bioderma3.jpg);
+[class*="item-"] {
+  background-image: url(https://cdn-images.kiotviet.vn/myphamsacxuan/4dd11a4a8d11421bb6041d54b0299f67.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 250px;
 }
-.item:hover > .atc{
+[class*="item-"]:hover {
+  background-image: url(https://tienichgiadinhvn.com/wp-content/uploads/2023/03/bioderma3.jpg);
+  background-size: cover;
+}
+[class*="item-"]:hover > .atc{
     display: inline;
 }
+
 th{
     padding: 10px;
     width: 250px; 
