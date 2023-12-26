@@ -7,19 +7,61 @@
     <link rel="stylesheet" href="css/ex_4.03.css" />
   </head>
   <body>
-    <div class="bsl">
-      <h1>Best Seller</h1>
-      <div class="button">
+    <section class="bsl">
+      <h1 class="title">Best Seller</h1>
+      <!-- <div class="button">
         <button class="skincare-tab">Skincare</button>
         <button class="cushion-tab">Cushion</button>
         <button class="eyeliner-tab">Eyeliner</button>
         <button class="lipstick-tab">Lipstick</button>
         <button class="brush-tab">Brush</button>
+      </div> -->
+      <div class="product-tabs">
+        <div class="tabs">
+          <input
+            type="radio"
+            class="toggle_tab"
+            name="toggle_tab"
+            id="skincare-tab"
+          />
+          <input
+            type="radio"
+            class="toggle_tab"
+            name="toggle_tab"
+            id="cushion-tab"
+          />
+          <input
+            type="radio"
+            class="toggle_tab"
+            name="toggle_tab"
+            id="eyeliner-tab"
+          />
+          <input
+            type="radio"
+            class="toggle_tab"
+            name="toggle_tab"
+            id="lipstick-tab"
+          />
+          <input
+            type="radio"
+            class="toggle_tab"
+            name="toggle_tab"
+            id="brush-tab"
+          />
+          <nav class="tab-nav">
+            <ul>
+              <li><label for="skincare-tab">Skincare</label></li>
+              <li><label for="cushion-tab">Cushion</label></li>
+              <li><label for="eyeliner-tab">Eyeliner</label></li>
+              <li><label for="lipstick-tab">Lipstick</label></li>
+              <li><label for="brush-tab">Brush</label></li>
+            </ul>
+          </nav>
+        </div>
       </div>
       <table>
         <tr class="product-image">
           <th class="item-1">
-            <button class="atc">Add to cart</button>
             <button class="atc">Add to cart</button>
           </th>
           <th class="item-2">
@@ -79,6 +121,6 @@
           <th><p>$122.00</p></th>
         </tr>
       </table>
-    </div>
+    </section>
   </body>
 </html>
