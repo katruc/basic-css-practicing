@@ -36,19 +36,20 @@
   color: rgb(255, 107, 132);
 } */
 
-.atc{
+.atc, .btn{
   background-color: navy;
   color: rgb(212, 212, 212);
   border: none;
   padding: 10px 30px;
 }
-.atc:focus, .atc:hover{
+.atc:focus, .btn:focus, .btn:hover, .atc:hover{
   background-color: rgb(212, 212, 212);
     color: navy;
 }
-.atc {
+.atc,.btn {
   display: none;
 }
+
 [class*="item-"] {
   background-image: url(https://cdn-images.kiotviet.vn/myphamsacxuan/4dd11a4a8d11421bb6041d54b0299f67.jpg);
   background-repeat: no-repeat;
@@ -60,7 +61,7 @@
   background-image: url(https://tienichgiadinhvn.com/wp-content/uploads/2023/03/bioderma3.jpg);
   background-size: cover;
 }
-[class*="item-"]:hover > .atc{
+[class*="item-"]:hover > .atc, .btn{
     display: inline;
 }
 
