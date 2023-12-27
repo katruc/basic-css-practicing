@@ -1,0 +1,35 @@
+.title{
+    color: pink;
+}
+.description{
+    color: rgba(255, 90, 118, 0.445);
+}
+/* 
+web color hunt để tìm bảng màu phối sẵn
+extension color zilla để ăn trộm màu web khác
+page ruler để đo  
+extension what font để ăn trộm font web khác
+
+phân biệt:
+- initial: dùng để trở về màu mặc định của trình duyệt
+- inherit: kế thừa từ thằng cha trực tiếp, ở đây mỗi body set màu, content không có, box không có màu
+*/
+body {
+    color: navy;
+}
+/* màu trong body không có tác dụng */
+.box .content h2{
+    color: brown;
+}
+.box .content h2:hover{
+    /* color: initial;  */
+    color: inherit;
+}
+/* 
+để thay đổi size chữ, dùng font-size
+16px là mặc định theo trình duyệt
+1em = 16px
+ */
+.box .content p{
+    font-size: 18px;
+}

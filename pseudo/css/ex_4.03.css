@@ -21,7 +21,7 @@
   padding: 12px 30px;
   background: rgb(212, 212, 212);
   color: navy;
-  font-size: 1.10rem;
+  font-size: 1.10rem;   
 }
 .tab-nav ul li label:hover,
 .tabs input[type="radio"]:nth-of-type(1):checked ~ .tab-nav li:nth-of-type(1) label,
@@ -32,9 +32,22 @@
     background: navy;
     color: rgb(212, 212, 212);
 }
-/* .tabs input[type="radio"]:nth-of-type(1):checked ~ {
-  color: rgb(255, 107, 132);
-} */
+
+.tabs input[type="radio"]:nth-of-type(1):checked ~ .product-image .item-1 {
+  background-image: url(https://cdn-images.kiotviet.vn/myphamsacxuan/4dd11a4a8d11421bb6041d54b0299f67.jpg);
+} 
+.tabs input[type="radio"]:nth-of-type(2):checked ~ .product-image .item-2 {
+  background-image: url(https://product.hstatic.net/200000117693/product/_9bc-trang-_c4_91i_e1_bb_83m-espoir-pro-tailor-be-velvet-cover-cushion_3c5ff82dce5042f589d8a460303a8097.jpg);
+}
+.tabs input[type="radio"]:nth-of-type(3):checked ~ .product-image .item-3 {
+  background-image: url(https://file.hstatic.net/200000135107/file/romand_1_f7b431aa923749c0af6e27f2038ae224_grande.jpeg);
+}
+.tabs input[type="radio"]:nth-of-type(4):checked ~ .product-image .item-4 {
+  background-image: url(https://product.hstatic.net/200000135107/product/romand_dewy_97c766f3432141a888f895e1d018993f_grande.png);
+}
+.tabs input[type="radio"]:nth-of-type(5):checked ~ .product-image [class*="item-1"] {
+  background-image: url(https://www.elle.vn/wp-content/uploads/2023/11/13/557273/phan-ma-hong-romand.jpeg);
+}
 
 .atc, .btn{
   background-color: navy;
@@ -56,6 +69,7 @@
   background-position: center;
   background-size: contain;
   height: 250px;
+  
 }
 [class*="item-"]:hover {
   background-image: url(https://tienichgiadinhvn.com/wp-content/uploads/2023/03/bioderma3.jpg);
@@ -69,3 +83,4 @@ th{
     padding: 10px;
     width: 250px; 
 }
+
