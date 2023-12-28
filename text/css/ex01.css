@@ -2,7 +2,7 @@
     color: pink;
 }
 .description{
-    color: rgba(255, 90, 118, 0.445);
+    color: rgba(245, 54, 86, 0.445);
 }
 /* 
 web color hunt để tìm bảng màu phối sẵn
@@ -15,7 +15,7 @@ phân biệt:
 - inherit: kế thừa từ thằng cha trực tiếp, ở đây mỗi body set màu, content không có, box không có màu
 */
 body {
-    color: navy;
+    color: rgb(255, 109, 155);
 }
 /* màu trong body không có tác dụng */
 .box .content h2{
