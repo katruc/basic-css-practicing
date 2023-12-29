@@ -1,0 +1,15 @@
+.c-box{
+    /* background-color: rgb(253, 204, 212);
+    height: 2000px; */
+    /* background-image: url('../img/anton-sharov-133628-unsplash-800x600.jpg'); */
+    /* background-image: url('https://fastly.picsum.photos/id/477/1000/500.jpg?hmac=qWeZQaCbIHYUWH8Vq4C6jeOGe87eBjPm6Fi9qTolDSM');
+    background-repeat: no-repeat; */
+    /* background-position: 30px 50px; */
+    /* background-size: cover;
+    background-attachment: fixed; */
+
+    background: rgb(253, 204, 212) url("https://fastly.picsum.photos/id/477/1000/500.jpg?hmac=qWeZQaCbIHYUWH8Vq4C6jeOGe87eBjPm6Fi9qTolDSM") no-repeat left top fixed;
+}
+/* .box {
+    background-color: rgb(255, 111, 135);
+} */

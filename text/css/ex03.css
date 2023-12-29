@@ -8,4 +8,9 @@
 }
 .text{
     word-wrap: break-word;
+    /* ngắt xuống dòng */
+}
+.box p {
+    text-indent: 20px;
+    /* lùi đầu dòng */
 }

@@ -1,0 +1,9 @@
+.box {
+    text-align: justify;
+    /* căn đều hai bên */
+    text-align-last: center;
+    /* center rieng dong cuoi */
+}
+.btn-wrap{
+    text-align: center;
+}
