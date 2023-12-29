@@ -1,9 +1,29 @@
-/* @font-face {
-    font-family: Roboto;
+@font-face {
+    font-family: "Roboto Light";
+    src: url(../fonts/Roboto-Light.ttf);
+    font-weight: 300;
+
+}
+@font-face {
+    font-family: "Roboto Regular";
     src: url(../fonts/Roboto-Regular.ttf);
-} */
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
 body{
     font-family: Roboto, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    /* độ dày của chữ */
 }
 /* khi font Roboto bị lỗi, sẽ hiện times new roman */
 .content{
@@ -11,4 +31,4 @@ body{
     line-height: 1.2;
     /* giãn dòng nếu là px dựa theo font size, nếu để 1.5 thì cố định, không bị phụ thuộc fort size*/
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');    
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');     */
