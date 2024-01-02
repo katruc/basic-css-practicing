@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Lobster;
+    src: url('../fonts/Lobster-Regular.ttf');
+}
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/Lato-Bold.ttf');
+}
+.title{
+    font-family: Lobster;
+    font-size: 40px;
+}
+.description {
+    color: #A6A6A6;
+    font-family: Lato;
+    margin-bottom: 30px;
+}
+.word-to-red{
+    color: red;
+}
+.form::placeholder{
+    color: #898989;
+    font-family: Lato;
+    font-size: 15px;
+}
+.form{
+    padding: 10px;
+    padding-right: 350px;
+    border-color: 898989;
+}
+div{
+    display: block;
+    margin-bottom: 25px;
+}
+

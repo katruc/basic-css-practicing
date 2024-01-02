@@ -1,0 +1,16 @@
+.box{
+    /* border-width: px;
+    border-style: double;
+    border-color: lightcoral; */
+    border: 1px dashed black;
+}
+.bd {
+    background-color: lightpink;
+}
+.content{
+    width: 0;
+    height: 0;
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent transparent lightblue transparent;
+}

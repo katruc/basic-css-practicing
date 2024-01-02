@@ -8,7 +8,7 @@
     /* background-size: cover;
     background-attachment: fixed; */
 
-    background: rgb(253, 204, 212) url("https://fastly.picsum.photos/id/477/1000/500.jpg?hmac=qWeZQaCbIHYUWH8Vq4C6jeOGe87eBjPm6Fi9qTolDSM") no-repeat left top fixed;
+    background: rgb(253, 204, 212) url("https://fastly.picsum.photos/id/477/1000/500.jpg?hmac=qWeZQaCbIHYUWH8Vq4C6jeOGe87eBjPm6Fi9qTolDSM") no-repeat left top / cover fixed;
 }
 /* .box {
     background-color: rgb(255, 111, 135);
