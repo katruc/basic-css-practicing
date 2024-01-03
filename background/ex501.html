@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -17,10 +24,12 @@
       message or just say hi with our <br />contact form or directly via phone,
       we love to chat.
     </p>
-    <div>
+    <div class="input-w-icon">
+      <span class="icon"><i class="fa-solid fa-user"></i></span>
       <input type="text" name="name" class="form" placeholder="Your name" />
     </div>
-    <div>
+    <div class="input-w-icon">
+      <span class="icon"><i class="fa-solid fa-envelope"></i></span>
       <input
         type="email"
         name="email"
@@ -28,13 +37,16 @@
         placeholder="your@domain.com"
       />
     </div>
-    <div>
+    <div class="input-w-icon">
+      <span class="icon"><i class="fa-solid fa-mobile-screen-button"></i></span>
       <input type="text" name="name" class="form" placeholder="+84 00 123" />
     </div>
-    <div>
+    <div class="input-w-icon">
+      <span class="icon"><i class="fa-solid fa-folder-open"></i></i></span>
       <input type="number" name="name" class="form" placeholder="Subject" />
     </div>
-    <div>
+    <div class="input-w-icon">
+      <span class="icon"><i class="fa-solid fa-message"></i></span>
       <textarea
         name="text"
         cols="21"
@@ -43,14 +55,12 @@
         placeholder="Message"
       ></textarea>
     </div>
-    <table>
-      <tr>
-        <th>
-          <input type="checkbox" class="description" />Send me a copy of this
-          message
-        </th>
-        <th><input type="submit" value="SEND" /></th>
-      </tr>
-    </table>
+    <div class="row">
+      <label for="checkbox">
+        <input type="checkbox" class="checkbox" id="checkbox" /> Send me a copy
+        of this message
+      </label>
+      <button class="btn">SEND</button>
+    </div>
   </body>
 </html>
