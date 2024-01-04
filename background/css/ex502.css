@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+[class*="question-"] {
+    font-family: Roboto-medium;
+    background-color: #D95925;
+    color: aliceblue;
+    padding: 10px;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+}
+[class*="answer-"] {
+    font-family: Roboto-regular;
+    font-size: 15px;
+    display: none;
+}
+input[type="radio"] {
+    appearance: none;
+}
+.minus-icon{
+    display: none;
+    cursor: pointer;
+}
+.markdown-1:checked ~.answer-1{
+    display: inline;
+}
+.markdown-2:checked ~.answer-2{
+    display: inline;
+}
+.markdown-3:checked ~.answer-3{
+    display: inline;
+}
+
+

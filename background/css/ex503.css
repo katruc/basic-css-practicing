@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Roboto-medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Lato-light;
+    src: url(../fonts/Lato-Light.ttf);
+}
+.container{
+    text-align: center;
+}
+.title, h2{
+    font-family: Roboto-medium;
+}
+.subtitle, p, a{
+    font-family: Lato-light;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.service-box-lists{
+    margin: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.service-box-items{
+    box-shadow: 0 0 5px rgba(46, 46, 46, 0.5);
+    padding: 40px 40px;
+    margin-right: 5px;
+    width: 250px;
+}
+.icon{
+    font-size: 60px;
+    color: #F1A83A;
+}
+.btn{
+    background-color: #F1A83A;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 13px 35px;
+}
