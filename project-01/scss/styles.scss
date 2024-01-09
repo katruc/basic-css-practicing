@@ -70,7 +70,7 @@ a {
     padding: 8px 0;
     color: $text-color;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600; 
 
     &::after{
         content: "";
@@ -85,7 +85,7 @@ a {
 
     &:hover::after, 
     &.active::after{
-        width: 100%;
+        width: 100%;  
     }
 }
 .action{
