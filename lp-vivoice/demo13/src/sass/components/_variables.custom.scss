@@ -12,7 +12,7 @@ $border-radius-lg:                                  0 !default;
 
 // Theme colors
 // Primary
-$primary:       									if(isDarkMode(), #3699FF, #009EF7);
+$primary:       									if(isDarkMode(), #ff3636, #f70000);
 $primary-active:    								if(isDarkMode(), #187DE4, #0095E8);
 $primary-light:    								    if(isDarkMode(), #212E48, #ECF8FF);
 $primary-inverse:  									#FFFFFF;
